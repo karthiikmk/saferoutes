@@ -10,6 +10,10 @@
 
 ---
 
+
+https://github.com/user-attachments/assets/ab79bd22-abaa-4bbf-9395-bb1401cd768c
+
+
 ## 📱 App Screenshots
 
 | 1. Welcome & Highlights | 2. Home & Last Trip | 3. Safe Route Planner | 4. Saved Trips Sync | 5. Route Details |
