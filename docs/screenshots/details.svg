@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 780" width="360" height="780">
+  <rect width="360" height="780" fill="#F8FAFC"/>
+  <!-- App Header Bar -->
+  <text x="20" y="44" fill="#0F172A" font-family="system-ui, sans-serif" font-size="16" font-weight="800">← Chennai to Tirupati</text>
+  <text x="20" y="60" fill="#64748B" font-family="system-ui, sans-serif" font-size="10">Tata Nexon • Safe Route Plan</text>
+
+  <!-- Locked Highway Link Box -->
+  <rect x="16" y="72" width="328" height="230" rx="16" fill="#E0F2FE"/>
+  <text x="32" y="94" fill="#0284C7" font-family="system-ui, sans-serif" font-size="11" font-weight="700">🧭 LOCKED HIGHWAY MAPS LINK</text>
+
+  <!-- Map Photo -->
+  <rect x="32" y="104" width="296" height="100" rx="12" fill="#0F172A"/>
+  
+  <text x="32" y="218" fill="#0369A1" font-family="system-ui, sans-serif" font-size="10">https://www.google.com/maps/dir</text>
+  <text x="32" y="230" fill="#0369A1" font-family="system-ui, sans-serif" font-size="10">/Anna+Nagar+Chennai</text>
+
+  <rect x="32" y="244" width="180" height="32" rx="8" fill="#0284C7"/>
+  <text x="122" y="264" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="11" text-anchor="middle" font-weight="700">↗ Open in Google Maps</text>
+
+  <rect x="220" y="244" width="108" height="32" rx="8" fill="#E0F2FE" stroke="#BAE6FD" stroke-width="1"/>
+  <text x="274" y="264" fill="#0284C7" font-family="system-ui, sans-serif" font-size="11" text-anchor="middle" font-weight="700">Copy Link</text>
+
+  <!-- Route Info Card -->
+  <rect x="16" y="314" width="328" height="220" rx="16" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="32" y="338" fill="#0F172A" font-family="system-ui, sans-serif" font-size="16" font-weight="800">🗺️ Route</text>
+  <text x="32" y="354" fill="#64748B" font-family="system-ui, sans-serif" font-size="10">Preview stays on named expressway, NH, or divided bypass</text>
+
+  <!-- Note Box -->
+  <rect x="32" y="366" width="296" height="60" rx="8" fill="#F8FAFC"/>
+  <text x="42" y="382" fill="#475569" font-family="system-ui, sans-serif" font-size="9">• Check: preview stays on named expressway, NH, or</text>
+  <text x="42" y="394" fill="#475569" font-family="system-ui, sans-serif" font-size="9">divided bypass</text>
+  <text x="42" y="408" fill="#475569" font-family="system-ui, sans-serif" font-size="9">• If no directions: search destination → Directions → set</text>
+  <text x="42" y="420" fill="#475569" font-family="system-ui, sans-serif" font-size="9">start → Add stop for each pin</text>
+
+  <!-- Start -->
+  <rect x="32" y="434" width="296" height="42" rx="8" fill="#F0F9FF"/>
+  <circle cx="48" cy="455" r="9" fill="#0284C7"/>
+  <text x="48" y="459" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle" font-weight="bold">S</text>
+  <text x="64" y="448" fill="#0284C7" font-family="system-ui, sans-serif" font-size="8" font-weight="700">START (S)</text>
+  <text x="64" y="462" fill="#0F172A" font-family="system-ui, sans-serif" font-size="11" font-weight="700">Anna Nagar, Chennai</text>
+  <text x="64" y="472" fill="#64748B" font-family="system-ui, sans-serif" font-size="8">Chennai ORR</text>
+
+  <!-- Destination -->
+  <rect x="32" y="482" width="296" height="42" rx="8" fill="#FEF2F2"/>
+  <circle cx="48" cy="503" r="9" fill="#DC2626"/>
+  <text x="48" y="507" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle" font-weight="bold">D</text>
+  <text x="64" y="496" fill="#DC2626" font-family="system-ui, sans-serif" font-size="8" font-weight="700">DESTINATION (D)</text>
+  <text x="64" y="510" fill="#0F172A" font-family="system-ui, sans-serif" font-size="11" font-weight="700">Tirumala Hills, Tirupati</text>
+  <text x="64" y="520" fill="#64748B" font-family="system-ui, sans-serif" font-size="8">Final stop</text>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 780" width="360" height="780">
+  <rect width="360" height="780" fill="#F8FAFC"/>
+  <!-- App Header Bar -->
+  <text x="20" y="48" fill="#0F172A" font-family="system-ui, sans-serif" font-size="18" font-weight="800">← Saved Trips</text>
+  <text x="20" y="64" fill="#64748B" font-family="system-ui, sans-serif" font-size="10">Linked to karthikprivateacct1@gmail.com</text>
+
+  <!-- Google Account Banner -->
+  <rect x="16" y="80" width="328" height="64" rx="14" fill="#E0F2FE"/>
+  <circle cx="44" cy="112" r="14" fill="#0284C7"/>
+  <text x="44" y="117" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="12" text-anchor="middle" font-weight="bold">K</text>
+  <text x="68" y="104" fill="#0F172A" font-family="system-ui, sans-serif" font-size="12" font-weight="700">Google Account: Karthik</text>
+  <text x="68" y="118" fill="#0284C7" font-family="system-ui, sans-serif" font-size="10">karthikprivateacct1@gmail.com</text>
+  <text x="68" y="130" fill="#0369A1" font-family="system-ui, sans-serif" font-size="9" font-weight="600">Cloud Sync Active • Tap card to re-sync</text>
+  <rect x="272" y="98" width="60" height="26" rx="6" fill="#BAE6FD"/>
+  <text x="302" y="115" fill="#0369A1" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle" font-weight="700">RE-SYNC</text>
+
+  <!-- Saved Item Card -->
+  <rect x="16" y="156" width="328" height="120" rx="14" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="32" y="180" fill="#0F172A" font-family="system-ui, sans-serif" font-size="14" font-weight="800">Chennai to Tirupati (Divided ORR &amp; NH716)</text>
+  <text x="312" y="180" fill="#DC2626" font-family="system-ui, sans-serif" font-size="12">🗑️</text>
+  <text x="32" y="198" fill="#0284C7" font-family="system-ui, sans-serif" font-size="11" font-weight="600">Anna Nagar, Chennai → Tirumala Hills, Tirupati</text>
+  <text x="32" y="214" fill="#0284C7" font-family="system-ui, sans-serif" font-size="10">155 km (Divided Chennai ORR &amp; NH716)</text>
+  <text x="32" y="230" fill="#EAB308" font-family="system-ui, sans-serif" font-size="10">Safety Rating: ★★★★★</text>
+  <rect x="32" y="238" width="70" height="18" rx="4" fill="#FEF08A"/>
+  <text x="67" y="251" fill="#854D0E" font-family="system-ui, sans-serif" font-size="8" text-anchor="middle" font-weight="700">Chennai ORR</text>
+  <rect x="106" y="238" width="48" height="18" rx="4" fill="#FEF08A"/>
+  <text x="130" y="251" fill="#854D0E" font-family="system-ui, sans-serif" font-size="8" text-anchor="middle" font-weight="700">NH716</text>
+
+  <!-- Bottom Navigation -->
+  <rect x="0" y="710" width="360" height="70" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="40" y="736" fill="#64748B" font-family="system-ui, sans-serif" font-size="14" text-anchor="middle">🏠</text>
+  <text x="40" y="760" fill="#64748B" font-family="system-ui, sans-serif" font-size="10" text-anchor="middle">Home</text>
+
+  <text x="112" y="736" fill="#64748B" font-family="system-ui, sans-serif" font-size="14" text-anchor="middle">🧭</text>
+  <text x="112" y="760" fill="#64748B" font-family="system-ui, sans-serif" font-size="10" text-anchor="middle">Plan</text>
+
+  <rect x="156" y="716" width="56" height="32" rx="16" fill="#FCE7F3"/>
+  <text x="184" y="736" fill="#DB2777" font-family="system-ui, sans-serif" font-size="14" text-anchor="middle">🔖</text>
+  <text x="184" y="760" fill="#DB2777" font-family="system-ui, sans-serif" font-size="10" text-anchor="middle" font-weight="700">Saved</text>
+
+  <text x="256" y="736" fill="#64748B" font-family="system-ui, sans-serif" font-size="14" text-anchor="middle">🛡️</text>
+  <text x="256" y="760" fill="#64748B" font-family="system-ui, sans-serif" font-size="10" text-anchor="middle">SOS</text>
+
+  <text x="320" y="736" fill="#64748B" font-family="system-ui, sans-serif" font-size="14" text-anchor="middle">⚙️</text>
+  <text x="320" y="760" fill="#64748B" font-family="system-ui, sans-serif" font-size="10" text-anchor="middle">Settings</text>
+</svg>

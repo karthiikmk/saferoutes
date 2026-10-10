@@ -1,56 +1,63 @@
-# 🛣️ SafeRoutes — Audited Highway Corridors & AI Route Planner
+# SafeTrip: Autonomous AI Agent Highway Route & Safety Planner
 
-**SafeRoutes** is an Android application designed for safe long-distance driving across Indian highway corridors. It prioritizes road safety, audited highway stopovers, 24x7 emergency SOS protocols, and multi-vehicle garage management over simply finding the shortest route.
+[![Kotlin](https://img.shields.io/badge/Kotlin-Native%20%2F%20Android-7F52FF?logo=kotlin&logoColor=white)](#)
+[![AI Agents](https://img.shields.io/badge/AI%20Agents-Gemini%20%26%20Claude-4285F4)](#)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
 
----
-
-## 🌟 Key Features
-
-1. **🛣️ Audited Highway Corridors (Home):**
-   * Curated safety data for major corridors (e.g., Chennai → Bengaluru NH48, Bengaluru → Hyderabad NH44, Mumbai → Pune Expressway).
-   * Weather alerts, road surface quality ratings, recommended break schedules, and toll estimates.
-
-2. **🤖 Multi-Engine AI Route Planner (Plan):**
-   * Dynamic routing powered by AI models with central cloud management via Firebase Firestore.
-   * Supports **OpenRouter (`openai/gpt-4o`)**, **Tavily**, **Google Gemini**, **Anthropic Claude**, and **SiliconFlow**.
-   * Controlled dynamically in Firestore via `/config/routing_control`.
-
-3. **🔖 Saved Routes & Offline Cache:**
-   * Clean Room SQLite integration with Cloud Firestore synchronization (`/users/{email}/route_history`).
-   * Prevents duplication and provides seamless offline accessibility.
-
-4. **🚨 Emergency Hub & 1033 Helpline (SOS):**
-   * Instant 1-tap call triggers for **1033 NHAI Highway Emergency Helpline** and OEM Roadside Assistance (RSA).
-   * Live GPS coordinates and nearest police station / hospital locator.
-
-5. **🚗 Multi-Vehicle Garage:**
-   * Manage multiple cars (e.g., Tata Nexon, Hyundai i20, Mahindra XUV700).
-   * Recommends cold tyre pressure (PSI), FASTag status, connected car status (Bluelink/iRA), and SOS instructions.
+> **SafeTrip (Project-TripAgent)** is an autonomous multi-agent road trip safety engine designed specifically for Indian highways and expressways. It moves beyond standard map routing by deploying autonomous AI agent evaluators that prioritize divided 4/6-lane corridors, verified toll plaza rest pins, secure parking, vehicle-specific SOS triggers, and emergency roadside assistance.
 
 ---
 
 ## 📱 App Screenshots
 
-| 1. Home / Corridors | 2. AI Route Planner | 3. Route Details | 4. Emergency SOS | 5. Vehicle Garage |
+| 1. Welcome & Highlights | 2. Home & Last Trip | 3. Safe Route Planner | 4. Saved Trips Sync | 5. Route Details |
 | :---: | :---: | :---: | :---: | :---: |
-| ![Home](./docs/screenshots/home.png) | ![Planner](./docs/screenshots/planner.png) | ![Details](./docs/screenshots/details.png) | ![SOS](./docs/screenshots/sos.png) | ![Garage](./docs/screenshots/garage.png) |
+| ![Welcome](./docs/screenshots/welcome.png) | ![Home](./docs/screenshots/home.png) | ![Planner](./docs/screenshots/planner.png) | ![Saved](./docs/screenshots/saved.png) | ![Details](./docs/screenshots/details.png) |
 
 ---
 
-## 🛠️ Architecture & Tech Stack
+## 🏗️ Architecture & Multi-Agent Topologies
 
-* **Language:** 100% Kotlin
-* **UI Framework:** Jetpack Compose with Material Design 3
-* **Database:** Room SQLite (v3 schema) + Firebase Firestore
-* **Authentication:** Google Sign-In via Jetpack Credential Manager & Firebase Auth
-* **Networking:** Retrofit2, OkHttp3, and Firebase Firestore SDK
-* **Asynchrony:** Kotlin Coroutines & `Flow` (`StateFlow`, `flatMapLatest`)
+SafeTrip employs a multi-agent orchestration architecture:
+
+```mermaid
+flowchart TD
+    User["User Input: Origin, Destination & Vehicle Specs"] --> Supervisor["Agent Supervisor & Orchestrator"]
+    
+    subgraph Agents ["Specialized Autonomous Agents"]
+        Supervisor --> RouteAgent["Corridor & Routing Agent\n(Evaluates 4/6-lane divided expressways)"]
+        Supervisor --> SafetyAgent["Safety & Risk Scoring Agent\n(Night driving hazard & incident analysis)"]
+        Supervisor --> TollAgent["Toll Plaza & Rest Pin Verifier\n(Verified NHAI amenities & secure parking)"]
+        Supervisor --> SOSAgent["Emergency & Roadside SOS Agent\n(Vehicle-specific breakdown protocols)"]
+    end
+
+    RouteAgent --> ToolExec["Tool Calling & Inference Layer\n(Server-side Gemini & Claude APIs)"]
+    SafetyAgent --> ToolExec
+    TollAgent --> ToolExec
+    SOSAgent --> ToolExec
+
+    ToolExec --> Synthesizer["Trip Plan Synthesizer & Schema Validator"]
+    Synthesizer --> UI["Native Mobile UI & Interactive Itinerary"]
+```
 
 ---
 
-## 🚀 Pushing to GitHub
+## ⚡ Key Capabilities
+* **Expressway-First Routing**: Prioritizes access-controlled divided 4/6-lane corridors (e.g., NE-1, NE-4, Yamuna Expressway, Bangalore-Mysore Expressway) over poorly lit arterial state highways.
+* **Autonomous Safety & Risk Scoring**: Real-time evaluation of night-driving hazards, isolated stretches, and weather vulnerabilities.
+* **Verified Toll Plaza & Rest Pins**: Automatically identifies and bookmarks NHAI verified rest stops, fuel stations, and well-lit parking spots.
+* **Vehicle-Specific SOS Routing**: Pre-maps brand service centers and emergency tow services along the active travel corridor.
 
-To push this codebase directly to your GitHub repository:
-1. Click the **Export / GitHub** button in the top-right header of Google AI Studio.
-2. Select **Push to GitHub** or **Download ZIP**.
-3. All code, database schemas, Firestore rules, and README documentation will be committed to your repository.
+---
+
+## 🛠️ Tech Stack & Model Execution
+* **Language & Architecture**: Kotlin, Android, Clean Architecture, Reactive flows.
+* **Agentic Framework**: Server-side Gemini API & Claude API tool-calling pipelines.
+* **Data Contracts**: Rigid JSON Schema contracts ensuring deterministic, hallucination-free route metadata.
+
+---
+
+## 👨‍💻 Author
+**Karthik M K**  
+Lead Software Engineer & Principal Mobile / Agentic Systems Architect  
+* [GitHub](https://github.com/karthiikmk) | [LinkedIn](https://linkedin.com/in/karthiikmk) | [Medium](https://medium.com/@karthikmk)

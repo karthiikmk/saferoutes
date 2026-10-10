@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 780" width="360" height="780">
+  <rect width="360" height="780" fill="#F8FAFC"/>
+  <!-- Status Bar -->
+  <text x="24" y="28" fill="#0F172A" font-family="system-ui, sans-serif" font-size="12" font-weight="600">10:06</text>
+  
+  <!-- Hero Banner Card -->
+  <rect x="16" y="44" width="328" height="200" rx="24" fill="#0F172A"/>
+  <!-- Gradient Overlay -->
+  <rect x="16" y="140" width="328" height="104" rx="24" fill="url(#gradWelcome)"/>
+  <defs>
+    <linearGradient id="gradWelcome" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F172A;stop-opacity:0" />
+      <stop offset="100%" style="stop-color:#0F172A;stop-opacity:0.9" />
+    </linearGradient>
+  </defs>
+  <!-- Safety First Badge -->
+  <rect x="32" y="146" width="92" height="24" rx="6" fill="#059669"/>
+  <text x="78" y="162" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="10" text-anchor="middle" font-weight="700">SAFETY FIRST</text>
+  <text x="32" y="198" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="26" font-weight="800">SafeTrip India</text>
+  <text x="32" y="222" fill="#E2E8F0" font-family="system-ui, sans-serif" font-size="12">National Highways safety advisor &amp; live tracking</text>
+
+  <!-- Journey Highlights Section -->
+  <text x="24" y="282" fill="#0284C7" font-family="system-ui, sans-serif" font-size="12" font-weight="700" letter-spacing="1">JOURNEY HIGHLIGHTS</text>
+
+  <!-- Item 1 -->
+  <circle cx="42" cy="324" r="20" fill="#E0F2FE"/>
+  <text x="42" y="329" fill="#0284C7" font-family="system-ui, sans-serif" font-size="16" text-anchor="middle">🛡️</text>
+  <text x="74" y="320" fill="#0F172A" font-family="system-ui, sans-serif" font-size="14" font-weight="700">Audited Highway Corridors</text>
+  <text x="74" y="338" fill="#64748B" font-family="system-ui, sans-serif" font-size="11">Real-time landslide, road widening, and divider alerts.</text>
+
+  <!-- Item 2 -->
+  <circle cx="42" cy="388" r="20" fill="#FEE2E2"/>
+  <text x="42" y="393" fill="#DC2626" font-family="system-ui, sans-serif" font-size="16" text-anchor="middle">🚘</text>
+  <text x="74" y="384" fill="#0F172A" font-family="system-ui, sans-serif" font-size="14" font-weight="700">Connected Car SOS Mirror</text>
+  <text x="74" y="402" fill="#64748B" font-family="system-ui, sans-serif" font-size="11">Automated OEM RSA phone codes, FASTag &amp; tyre specs.</text>
+
+  <!-- Item 3 -->
+  <circle cx="42" cy="452" r="20" fill="#FCE7F3"/>
+  <text x="42" y="457" fill="#DB2777" font-family="system-ui, sans-serif" font-size="16" text-anchor="middle">☁️</text>
+  <text x="74" y="448" fill="#0F172A" font-family="system-ui, sans-serif" font-size="14" font-weight="700">Realtime Cloud Sync</text>
+  <text x="74" y="466" fill="#64748B" font-family="system-ui, sans-serif" font-size="11">Seamlessly back up saved routes &amp; verified parking.</text>
+
+  <!-- Bottom CTA Button -->
+  <rect x="16" y="710" width="328" height="48" rx="14" fill="#0284C7"/>
+  <circle cx="118" cy="734" r="11" fill="#FFFFFF"/>
+  <text x="118" y="738" fill="#0284C7" font-family="system-ui, sans-serif" font-size="12" text-anchor="middle" font-weight="800">G</text>
+  <text x="186" y="739" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="14" text-anchor="middle" font-weight="700">Continue with Google</text>
+</svg>
