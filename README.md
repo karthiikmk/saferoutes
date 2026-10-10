@@ -33,7 +33,7 @@
 
 | 1. Home / Corridors | 2. AI Route Planner | 3. Route Details | 4. Emergency SOS | 5. Vehicle Garage |
 | :---: | :---: | :---: | :---: | :---: |
-| ![Home](docs/screenshots/home.png) | ![Planner](docs/screenshots/planner.png) | ![Details](docs/screenshots/details.png) | ![SOS](docs/screenshots/sos.png) | ![Garage](docs/screenshots/garage.png) |
+| ![Home](./docs/screenshots/home.png) | ![Planner](./docs/screenshots/planner.png) | ![Details](./docs/screenshots/details.png) | ![SOS](./docs/screenshots/sos.png) | ![Garage](./docs/screenshots/garage.png) |
 
 ---
 
