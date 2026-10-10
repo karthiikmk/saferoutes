@@ -1,3 +1,5 @@
+
+
 # SafeTrip: Autonomous AI Agent Highway Route & Safety Planner
 
 [![Kotlin](https://img.shields.io/badge/Kotlin-Native%20%2F%20Android-7F52FF?logo=kotlin&logoColor=white)](#)
@@ -12,7 +14,7 @@
 
 | 1. Welcome & Highlights | 2. Home & Last Trip | 3. Safe Route Planner | 4. Saved Trips Sync | 5. Route Details |
 | :---: | :---: | :---: | :---: | :---: |
-| ![Welcome](./docs/screenshots/welcome.png) | ![Home](./docs/screenshots/home.png) | ![Planner](./docs/screenshots/planner.png) | ![Saved](./docs/screenshots/saved.png) | ![Details](./docs/screenshots/details.png) |
+| <img width="150" height="350" alt="screenshot_1 (3)" src="https://github.com/user-attachments/assets/d5e41911-c9fb-4396-b461-502eb0b569f2" /> | <img width="150" height="350" alt="screenshot_2 (2)" src="https://github.com/user-attachments/assets/1b16933b-8c36-4275-a1e6-c39531e8b000" /> | <img width="150" height="350" alt="screenshot_3 (3)" src="https://github.com/user-attachments/assets/a388b8f9-7dc1-4782-9ee8-75d53dcff09f" /> | <img width="150" height="350" alt="screenshot_4 (1)" src="https://github.com/user-attachments/assets/7b4808de-478b-4da4-b5b4-35b89f4e60c0" /> | <img width="150" height="350" alt="screenshot_5" src="https://github.com/user-attachments/assets/479a3195-7b42-4eca-8996-5bb75ffddd03" /> |
 
 ---
 
