@@ -1,0 +1,90 @@
+{
+  "collections": {
+    "config": {
+      "documents": {
+        "gemini": {
+          "fields": {
+            "apiKey": { "type": "string" },
+            "apiType": { "type": "string" },
+            "modelName": { "type": "string" },
+            "prompt": { "type": "string" },
+            "geminiApiKey": { "type": "string" }
+          }
+        }
+      }
+    },
+    "parking_pins": {
+      "documents": {
+        "{pinId}": {
+          "fields": {
+            "id": { "type": "string" },
+            "name": { "type": "string" },
+            "city": { "type": "string" },
+            "locationType": { "type": "string" },
+            "mapLink": { "type": "string" },
+            "verifiedBy": { "type": "string" },
+            "carSuitability": { "type": "string" },
+            "timestamp": { "type": "number" }
+          }
+        }
+      }
+    },
+    "users": {
+      "documents": {
+        "{cleanEmail}": {
+          "collections": {
+            "route_history": {
+              "documents": {
+                "{routeId}": {
+                  "fields": {
+                    "id": { "type": "string" },
+                    "title": { "type": "string" },
+                    "origin": { "type": "string" },
+                    "destination": { "type": "string" },
+                    "distanceApprox": { "type": "string" },
+                    "primaryRoads": { "type": "array", "items": "string" },
+                    "mapsUrl": { "type": "string" },
+                    "verifyLine": { "type": "string" },
+                    "bestTime": { "type": "string" },
+                    "avoid": { "type": "string" },
+                    "corridorNote": { "type": "string" },
+                    "bestLotName": { "type": "string" },
+                    "bestLotMapLink": { "type": "string" },
+                    "backupLotName": { "type": "string" },
+                    "backupLotMapLink": { "type": "string" },
+                    "hyundaiRsaPhone": { "type": "string" },
+                    "nhaiEmergency": { "type": "string" },
+                    "userEmail": { "type": "string" },
+                    "carModel": { "type": "string" },
+                    "updatedAt": { "type": "number" }
+                  }
+                }
+              }
+            },
+            "vehicles": {
+              "documents": {
+                "{registrationNumber}": {
+                  "fields": {
+                    "registrationNumber": { "type": "string" },
+                    "makeModel": { "type": "string" },
+                    "variant": { "type": "string" },
+                    "tyreSpecification": { "type": "string" },
+                    "recommendedPsi": { "type": "string" },
+                    "hasConnectedCarBluelink": { "type": "boolean" },
+                    "fastagProvider": { "type": "string" },
+                    "fuelType": { "type": "string" },
+                    "oemRsaPhone": { "type": "string" },
+                    "sosButtonInstruction": { "type": "string" },
+                    "userEmail": { "type": "string" },
+                    "isDefault": { "type": "boolean" },
+                    "updatedAt": { "type": "number" }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

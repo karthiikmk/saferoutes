@@ -1,0 +1,6 @@
+{
+  "name": "SafeTrip",
+  "description": "Safe car route planner across Indian highways and expressways, prioritizing divided 4/6-lane corridors, verified toll plaza pins, secure parking, vehicle-specific SOS, and emergency roadside assistance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,134 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="800dp"
+    android:height="400dp"
+    android:viewportWidth="800"
+    android:viewportHeight="400">
+    
+    <!-- Background -->
+    <path
+        android:fillColor="#F4F6F9"
+        android:pathData="M0,0h800v400h-800z"/>
+        
+    <!-- Isometric Grid Lines -->
+    <path
+        android:strokeColor="#E2E8F0"
+        android:strokeWidth="1.5"
+        android:pathData="
+            M-100,50 L900,550
+            M-100,150 L900,650
+            M-100,250 L900,750
+            M-100,-50 L900,450
+            
+            M100,-100 L-400,900
+            M300,-100 L-200,900
+            M500,-100 L0,900
+            M700,-100 L200,900
+            M900,-100 L400,900
+        "/>
+
+    <!-- 3D Isometric Buildings (Grey blocks) -->
+    <!-- Building 1 (Top Left) -->
+    <path
+        android:fillColor="#CBD5E1"
+        android:pathData="M110,60 L160,85 L160,180 L110,155 Z"/>
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M160,85 L210,60 L210,155 L160,180 Z"/>
+    <path
+        android:fillColor="#E2E8F0"
+        android:pathData="M110,60 L160,35 L210,60 L160,85 Z"/>
+
+    <!-- Building 2 (Mid Left) -->
+    <path
+        android:fillColor="#CBD5E1"
+        android:pathData="M300,160 L360,190 L360,260 L300,230 Z"/>
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M360,190 L420,160 L420,230 L360,260 Z"/>
+    <path
+        android:fillColor="#E2E8F0"
+        android:pathData="M300,160 L360,130 L420,160 L360,190 Z"/>
+
+    <!-- Building 3 (Top Right) -->
+    <path
+        android:fillColor="#CBD5E1"
+        android:pathData="M690,40 L730,55 L730,130 L690,115 Z"/>
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M730,55 L770,40 L770,115 L730,130 Z"/>
+    <path
+        android:fillColor="#E2E8F0"
+        android:pathData="M690,40 L730,25 L770,40 L730,55 Z"/>
+
+    <!-- The Rotated Isometric Tablet -->
+    <!-- Tablet Base Shadow/Border -->
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M200,240 L400,360 L680,210 L480,90 Z"/>
+    <!-- Tablet White Body -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M205,235 L400,352 L675,205 L480,88 Z"/>
+    <!-- Tablet Screen (Light Blue/Grey) -->
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M250,235 L395,322 L630,195 L485,108 Z"/>
+
+    <!-- Green Rectangle on Screen -->
+    <path
+        android:strokeColor="#10B981"
+        android:strokeWidth="3"
+        android:fillColor="#10B981"
+        android:fillAlpha="0.1"
+        android:pathData="M290,215 L360,250 L340,270 L270,235 Z"/>
+    <!-- Circles at Green Vertices -->
+    <path android:fillColor="#10B981" android:pathData="M290,215 m-4,0 a4,4 0 1,1 8,0 a4,4 0 1,1 -8,0"/>
+    <path android:fillColor="#10B981" android:pathData="M360,250 m-4,0 a4,4 0 1,1 8,0 a4,4 0 1,1 -8,0"/>
+    <path android:fillColor="#10B981" android:pathData="M340,270 m-4,0 a4,4 0 1,1 8,0 a4,4 0 1,1 -8,0"/>
+    <path android:fillColor="#10B981" android:pathData="M270,235 m-4,0 a4,4 0 1,1 8,0 a4,4 0 1,1 -8,0"/>
+
+    <!-- Red Alert Box on Screen -->
+    <path
+        android:fillColor="#EF4444"
+        android:fillAlpha="0.2"
+        android:pathData="M430,150 L490,120 L510,130 L450,160 Z"/>
+    <path
+        android:strokeColor="#EF4444"
+        android:strokeWidth="2"
+        android:pathData="M430,150 L490,120 L510,130 L450,160 Z"/>
+
+    <!-- Yellow Circle on Screen -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M520,205 C540,205 550,195 550,185 C550,175 540,165 520,165 C500,165 490,175 490,185 C490,195 500,205 520,205 Z"/>
+
+    <!-- Blue Pin at Tablet Center -->
+    <!-- Base shadow of pin -->
+    <path
+        android:fillColor="#334155"
+        android:fillAlpha="0.2"
+        android:pathData="M440,245 m-15,0 a15,5 0 1,1 30,0 a15,5 0 1,1 -30,0"/>
+    <!-- Pin Body (Rotated/Isometric flat blue pin) -->
+    <path
+        android:fillColor="#3B82F6"
+        android:pathData="M440,200 C425,200 415,212 415,225 C415,240 440,265 440,265 C440,265 465,240 465,225 C465,212 455,200 440,200 Z"/>
+    <!-- Pin inner hole -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M440,218 m-7,0 a7,7 0 1,1 14,0 a7,7 0 1,1 -14,0"/>
+
+    <!-- Wireless waves/indicator on tablet edge -->
+    <path
+        android:fillColor="#3B82F6"
+        android:pathData="M640,175 m-12,0 a12,12 0 1,1 24,0 a12,12 0 1,1 -24,0"/>
+    <!-- Concentric wave arches -->
+    <path
+        android:strokeColor="#3B82F6"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="
+            M622,175 A20,20 0 0,1 658,175
+            M616,175 A26,20 0 0,1 664,175
+        "/>
+
+</vector>
