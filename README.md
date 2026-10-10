@@ -1,5 +1,3 @@
-
-
 # SafeTrip: Autonomous AI Agent Highway Route & Safety Planner
 
 [![Kotlin](https://img.shields.io/badge/Kotlin-Native%20%2F%20Android-7F52FF?logo=kotlin&logoColor=white)](#)
@@ -10,9 +8,21 @@
 
 ---
 
+## 💡 Why SafeTrip? (The Origin Story)
+
+> *"Conventional navigation apps like Google Maps are optimized for speed, not safety. But the fastest route isn't always the safest one."*
+
+### The Problem
+When driving long-distance across Indian highways—especially solo or at night—blindly following standard GPS algorithms can lead to dangerous situations. Standard navigation tools routinely shave off a few minutes by routing drivers through unlit rural shortcuts, unpaved village lanes, or isolated stretches with zero cell coverage, no fuel stations, and no nearby emergency assistance.
+
+### The Spark Behind the Project
+The idea for **SafeTrip** was born out of a frightening personal experience. While driving alone on a long intercity highway journey, I followed standard GPS navigation blindly. To save a few minutes, the app rerouted me off the main multi-lane national highway onto a pitch-black, deserted village track that ended deep inside a rural graveyard. Being stranded in an isolated location with no security or breakdown support made me realize a critical gap: **no existing navigation tool prioritizes driver safety over speed.**
+
+Determined to solve this problem for myself and millions of highway drivers, I created **SafeTrip**—an autonomous AI agent routing system that strictly keeps drivers on well-lit, divided 4/6-lane expressways with audited rest stops, verified parking, and vehicle-specific SOS protocols.
+
+---
 
 https://github.com/user-attachments/assets/ab79bd22-abaa-4bbf-9395-bb1401cd768c
-
 
 ## 📱 App Screenshots
 

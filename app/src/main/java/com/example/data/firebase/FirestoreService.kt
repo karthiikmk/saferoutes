@@ -378,7 +378,7 @@ object FirestoreService {
             val orDoc = openrouterRef.get().await()
             if (!orDoc.exists() || orDoc.getString("apiKey").isNullOrBlank()) {
                 val config = hashMapOf(
-                    "apiKey" to "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",
+                    "apiKey" to "",
                     "apiType" to "OPENROUTER",
                     "modelName" to "openai/gpt-4o",
                     "prompt" to "",
@@ -392,7 +392,7 @@ object FirestoreService {
             val tvDoc = tavilyRef.get().await()
             if (!tvDoc.exists() || tvDoc.getString("apiKey").isNullOrBlank()) {
                 val config = hashMapOf(
-                    "apiKey" to "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",
+                    "apiKey" to "",
                     "apiType" to "TAVILY",
                     "modelName" to "gemini-3.5-flash",
                     "prompt" to "",
